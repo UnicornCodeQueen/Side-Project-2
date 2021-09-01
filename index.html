@@ -1,0 +1,114 @@
+<html>
+    <head>
+        <title>Happy 13th Birthday!</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"> 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script> 
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script> 
+        <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script> 
+        
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="javascript" type="main/js" href="main.js">
+
+    </head>
+
+    <body background="">
+        <center>
+            <img id="gif" src="gif.gif">
+            <img id="birthday_banner" src="">
+            <h2>생일 축하해요(Aka Happy Birthday!)! Me and Yusra have both contributed to making this page/website for you. We hope you like it!</h2>
+
+            <p>Soo, since I don't really know a lot about you, I decided to give some info on groups you like! :D</p>
+
+            <hr>
+
+            <h3> Section #1 : Info about groups you like. (Some FanChants might be fan-made and not official.)</h3>
+
+            <span>
+                <div id="favourite_groups">
+                    <div class="Margin" id="favourite_groups_bts">
+                        <img id="bts_img" src="bts.jpg" width="400">
+                           <h4 class="info_margin">
+                               BTS (방탄 소년단)
+                               <h5>Debut date : June 13, 2013</h5>
+                               <h5>Debut song : No More Dream</h5>
+                               <h5>No. of Members : 7</h5>
+                               <h5>Member's stage names : RM, Jin, Suga, J-Hope, Jimin, V, Jungkook</h5>
+                               <h5>Member's full/real names : Namjoon, Seokjin, Yoongi, Hoseok, Jimin, Taehyung, Jungkook</h5>
+                               <h5>Fandom Name : Army</h5>
+                               <h5>Army FanChant : Kim Namjoon, Kim seokjin, Min Yoongi, Jung Hoseok, Park Jimin, Kim Taehyung, Jeon Jungkook, BTS!!</h5>
+                           </h4>
+                    </div>
+
+                    <div class="Margin" id="favourite_groups_dreamcatcher">
+                        <img id="deukae_img" src="dreamcatcher.jpg" width="400">
+                            <h4 class="Margin">
+                                 DreamCatcher (드림캐쳐)
+                                 <h5>Debut Date : January 13, 2017</h5>
+                                 <h5>Debut Song : Chase Me</h5>
+                                 <h5>No. of Members : 7</h5>
+                                 <h5>Member's stage names : JiU, SuA, Siyeon, Handong, Yoohyeon, Dami, Gahyeon.</h5>
+                                 <h5>Member's full/real names : Kim Minji, Kim Bora, Lee Siyeon, Han Dong, Kim Yoohyeon, Lee Yubin, Lee Gahyeon.</h5>
+                                 <h5>Fandom Name : InSomnia</h5>
+                                 <button id="dc_fanchant_button" type="button" function="onclick()dreamcatcher"> Fanchants </button>
+                            </h4>
+                    </div>
+
+                    <div class="Margin" id="favourite_groups_ateez">
+                        <img id="ateez_img" src="ateez.jpg" width="400">
+                            <h4 class="Margin">
+                                 Ateez (에이티즈)
+                                 <h5>Debut Date : October 24, 2018</h5>
+                                 <h5>Debut Song : Pirate King (해적왕)</h5>
+                                 <h5>No. of Members : 8</h5>
+                                 <h5>Member's stage names : Hongjoong, Seonghwa, Yunho, Yeosang, San, Mingi, Wooyoung, Jongho.</h5>
+                                 <h5>Member's full/real names : Kim Hongjoong, Park Seonghwa, Jeong Yunho, Kang Yeosang, Choi San, Song Mingi, Jung Wooyoung, Choi Jongho.</h5>
+                                 <h5>Fandom Name : Atiny</h5>
+                                 <h5>Atiny FanChant : <strong>No official FanChant yet :P</strong></h5>
+                            </h4>
+                    </div>
+
+                    <div class="Margin" id="favourite_groups_txt">
+                        <img id="txt_img" src="txt.png">
+                            <h4 class="Margin">
+                                 Tomorrow By Together (TXT, 투모로우바이투게더)
+                                 <h5>Debut Date : March 4, 2019</h5>
+                                 <h5>Debut Song : Crown</h5>
+                                 <h5>No. of Members : 5</h5>
+                                 <h5>Member's stage names : Soobin, Yeonjun, Beomgyu, Taehyun, Huening Kai.</h5>
+                                 <h5>Member's full/real names : Choi Soobin, Choi Yeonjun, Choi Beomgyu, Kang Taehyun, Kai Kamal Huening.</h5>
+                                 <h5>Fandom Name : Moa</h5>
+                                 <h5>Moa FanChant : <strong>I'm not sure if there's an official FanChant ;-; sorry</strong></h5>
+                            </h4>
+                    </div>
+
+                    <div class="Margin" id="favourite_groups_mamamoo">
+                        <img id="mamamoo_img" src="mamamoo.jpg" width="400">
+                           <h4 class="Margin">
+                               Mamamoo (마마무)
+                               <h5>Debut Date : June 18, 2014</h5>
+                               <h5>Debut Song : Mr. Ambiguous</h5>
+                               <h5>No. of Members : 4</h5>
+                               <h5>Member's stage names : Solar, Moonbyul, Wheein, Hwasa.</h5>
+                               <h5>Member's full/real names : Kim Yongsun, Moon Byuli, Jung Wheein, Ahn Hyejin.</h5>
+                               <h5>Fandom Name : MooMoo</h5>
+                               <h5>MooMoo FanChant : Kim Yongsun, Moon Byuli, Jung Wheein, Ahn Hyejin, Ma-ma-moo!</h5>
+                           </h4>
+                    </div>
+                </div>           
+            </span>
+
+            <hr>
+
+            <p id="my_note">Even though we can't meet each other physically due to the situation of the world right now, we can at least talk online and that's still as good. Minus all the power and internet issues- In all seriousness though, you guys are amazing friends and I couldn't wish for more. I hope you, Yusra and I get to be the best of friends <3. </p>
+        </center>
+        
+        <div class="copy_right_footer">
+            Developed by - UnicornCodeQueen
+           © 2021 All Rights Reserved.
+      </div>
+      <script src="main.js"></script>
+    </body>
+</html>

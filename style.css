@@ -1,0 +1,40 @@
+body {
+    background-color: blueviolet;
+    color: #FFFFFF;
+    font-family: cursive;
+}
+
+#gif {
+    margin-top: 25px;
+}
+
+.margin {
+    margin-top: 25px;   
+}
+
+.copy_right_footer {
+    position: fixed;
+    color: white;
+    bottom: 0;
+    width: 100%;
+    background-color: violet;
+    line-height: 3;
+    text-align: center;
+}
+
+#my_note {
+    margin-bottom: 50px;
+}
+
+#dc_fanchant_button {
+    color: black;
+}
+
+.back_button {
+    margin-top: 10px;
+    background-color: black;
+}
+
+#dc_credits {
+    margin-bottom: 50px;
+}
